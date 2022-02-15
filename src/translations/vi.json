@@ -1,0 +1,51 @@
+{
+    "hi": "Chào bạn",
+    "sectionAbout": {
+        "title": "Giới thiệu về tôi",
+        "desc1": "Tôi tên là Mạnh Hùng, 21 tuổi đến từ Thành phố Hà Giang và tôi là Kỹ sư phần mềm của trường Đại học FPT.",
+        "desc2": "Tôi muốn trở thành nhà phát triển Web tốt nhất mà tôi có thể và đóng góp cho ngành công nghệ tất cả những gì tôi có thể làm. Tôi muốn học hỏi từ các anh chị nhiều kinh nghiệm đi trước và dày dạn kinh nghiệm hơn và tôi liên tục thực hiện những bước tiến để học hỏi tất cả những gì tôi có thể phát triển"
+    },
+    "section-projects": {
+        "title": "Các dự án",
+        "project1-date": "Tháng 6 - 2020",
+        "project2-date": "Tháng 6 - 2020",
+        "project3-date": "Tháng 6 - 2020",
+        "project4-date": "Tháng 6 - 2020",
+        "space1": "-----------------------------------",
+        "project1-title": "Điền thêm sau",
+        "project2-title": "Điền thêm sau",
+        "project3-title": "Điền thêm sau",
+        "project4-title": "Điền thêm sau"
+    },
+    "section-skills": {
+        "title": "Những Kỹ Năng",
+        "Skill1-title": "Front-end",
+        "Skill2-title": "Back-end",
+        "Skill3-title": "Khác"
+    },
+    "section-exp": {
+        "title": "Kinh Nghiệm",
+        "exp1-title": "Học hành",
+        "exp2-title": "Thực Tập",
+        "exp3-title": "Freelancer",
+        "exp4-title": "Code",
+        "space1": "-----------------------------------",
+        "exp1-date": "Từ: Tháng 8 - 2020 đến hiện tại",
+        "exp1-from": "Sinh viên tại Đại Học FPT",
+        "exp1-major": "Ngành Kỹ Thuật Phần Mềm",
+        "exp1-avg": "AVG: 3.1/4",
+        "space2": "-----------------------------------",
+        "exp2-date": "Từ: 112-22 (2020)",
+        "exp2-desc": "Kì thực tập tại FPT Software, Nội dung điền thêm sau",
+        "space3": "-----------------------------------",
+        "exp3-date": "Từ: 3433 (2021)",
+        "exp3-desc": "Toàn thời gian làm freelancer cắt giao diện front-end :v",
+        "space4": "-----------------------------------",
+        "exp4-date": "Hiện tại",
+        "exp4-desc": "5 năm học và làm việc với lập trình",
+        "button-more": "Đọc thêm"
+    },
+    "section-footer": {
+        "copyright": "COPYRIGHT © MANH HUNG"
+    }
+}

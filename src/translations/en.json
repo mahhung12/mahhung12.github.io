@@ -1,0 +1,51 @@
+{
+    "hi": "hi there",
+    "sectionAbout": {
+        "title": "About me",
+        "desc1": "My name is Manh Hung, I'm 21 years old from Ha Giang City and I’m a recent Software Engineer from FPT University.",
+        "desc2": "I want to be the best web developer that I can be and to contribute to the technology industry all that i know and can do. I learning from more seasoned developers, and continuously making strides to learn all that I can development"
+    },
+    "section-projects": {
+        "title": "Project",
+        "project1-date": "June - 2020",
+        "project2-date": "June - 2020",
+        "project3-date": "June - 2020",
+        "project4-date": "June - 2020",
+        "space1": "-----------------------------------",
+        "project1-title": "Enter later",
+        "project2-title": "Enter later",
+        "project3-title": "Enter later",
+        "project4-title": "Enter later"
+    },
+    "section-skills": {
+        "title": "Skills",
+        "Skill1-title": "Front-end",
+        "Skill2-title": "Back-end",
+        "Skill3-title": "Others"
+    },
+    "section-exp": {
+        "title": "Experience",
+        "exp1-title": "Study",
+        "exp2-title": "Internship",
+        "exp3-title": "Freelancer",
+        "exp4-title": "Code",
+        "space1": "-----------------------------------",
+        "exp1-date": "Since: September 2018 - Present",
+        "exp1-from": "Student at FPT University",
+        "exp1-major": "Major: Software Engineer",
+        "exp1-avg": "AVG: 3.1/4",
+        "space2": "-----------------------------------",
+        "exp2-date": "Since: May - Dec (2020)",
+        "exp2-desc": "Lorem ipsum dolor sit amet",
+        "space3": "-----------------------------------",
+        "exp3-date": "Since: May - Dec (2020)",
+        "exp3-desc": "Lorem ipsum dolor sit amet",
+        "space4": "-----------------------------------",
+        "exp4-date": "Since: Present",
+        "exp4-desc": "Lorem ipsum dolor sit amet",
+        "button-more": "More"
+    },
+    "section-footer": {
+        "copyright": "COPYRIGHT © MANH HUNG"
+    }
+}

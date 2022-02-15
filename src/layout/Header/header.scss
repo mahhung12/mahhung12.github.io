@@ -1,0 +1,201 @@
+:root {
+    --dur: 0.3s;
+}
+
+.active {
+    top: 0px;
+    transition: 0.3s linear;
+}
+
+.hidden {
+    position: fixed;
+    top: -70px;
+    transition: 0.3s linear;
+}
+
+.wrapper {
+    // background-color: #292c2f;
+    background-color: var(--header-background);
+    transition: all 0.2s linear;
+
+    position: fixed;
+    height: 70px;
+    max-width: 2440px;
+    width: 100%;
+    z-index: 29;
+
+    @media screen and (max-width: 768px) {
+        height: 60px;
+    }
+
+    .layout__header {
+        // max-width: 1440px;
+        margin: 0 auto;
+        padding: 10px 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // top: 50%;
+
+        @media screen and (max-width: 768px) {
+            transform: translateY(15%);
+            padding: 5px 20px;
+        }
+
+        .section__changeBg {
+            .toggle-container {
+                input {
+                    color: #fff;
+                    font: 1.5em/1.5 sans-serif;
+                }
+                form {
+                    // background: hsl(0, 0%, 90%);
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .toggle {
+                    &:before {
+                        background-color: var(--header-background);
+
+                        position: absolute;
+                        transition: transform var(--dur);
+                        transition-timing-function: ease-out;
+                        border-radius: 50%;
+                        content: "";
+                        display: block;
+                        top: 0.25em;
+                        left: 0.25em;
+                        width: 1em;
+                        height: 1em;
+                        transition-delay: 0s;
+                        transform: translateX(-1.5em);
+
+                        @media screen and (max-width: 768px) {
+                            top: 0.1em;
+                            left: 0.005em;
+
+                            width: 0.8em;
+                            height: 0.8em;
+                        }
+                    }
+                    &:after {
+                        // background-color: var(--text-secondary);
+                        background-color: var(--header-background);
+                        // background-color: blue;
+
+                        position: absolute;
+                        transition: transform var(--dur);
+                        border-radius: 50%;
+                        content: "";
+                        display: block;
+                        top: 0.25em;
+                        left: 0.25em;
+                        width: 1em;
+                        height: 1em;
+                        transition-delay: calc(var(--dur) * 0.75);
+                        transition-timing-function: cubic-bezier(
+                            0.3,
+                            1.6,
+                            0.5,
+                            0.7
+                        );
+
+                        @media screen and (max-width: 768px) {
+                            top: 0.1em;
+                            left: 0.2em;
+
+                            width: 0.8em;
+                            height: 0.8em;
+                        }
+                    }
+                    position: relative;
+                    overflow: hidden;
+                    background: currentColor;
+                    border-radius: 0.75em;
+                    cursor: pointer;
+                    width: 3em;
+                    height: 1.5em;
+                    -webkit-appearance: none;
+                    appearance: none;
+                    -webkit-tap-highlight-color: transparent;
+
+                    @media screen and (max-width: 768px) {
+                        width: 2.5em;
+                        height: 1em;
+                    }
+
+                    &:checked {
+                        &:after {
+                            transition-timing-function: ease-out;
+                            transition-delay: 0s;
+                            transform: translateX(3em);
+                        }
+                        &:before {
+                            transition-delay: calc(var(--dur) * 0.75);
+                            transition-timing-function: cubic-bezier(
+                                0.3,
+                                1.6,
+                                0.5,
+                                0.7
+                            );
+                            transform: translateX(1.5em);
+                        }
+                        ~ {
+                            .curtain {
+                                transform: scaleX(1);
+                            }
+                        }
+                    }
+                    &:focus {
+                        outline: transparent;
+                    }
+                }
+                .sr {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    overflow: hidden;
+                    clip: rect(1px, 1px, 1px, 1px);
+                    color: var(--text-secondary);
+                    width: 1px;
+                    height: 1px;
+                }
+            }
+        }
+
+        .section__changeLanguages {
+            display: flex;
+            gap: 0 25px;
+            .language-button {
+                width: 100px;
+                height: 50px;
+                cursor: pointer;
+
+                border: none;
+                outline: none;
+
+                @media screen and (max-width: 768px) {
+                    width: 60px;
+                    height: 35px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 7px;
+                    border: none;
+                }
+            }
+
+            .lan-active {
+                opacity: 0.4;
+                fill: rgb(18, 15, 15);
+            }
+        }
+    }
+}

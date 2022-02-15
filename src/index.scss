@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    outline: none;
+    border: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+:root {
+    --header-background: #ba7f879a;
+    --about-background: #bbb166;
+    --projects-background: #e6df9a;
+    --skills-background: #d6d58b;
+    --skills-item-background: #87c94e94;
+    --exp-background: #676440;
+    --exp-item-background: #fff9b1 !important;
+    --footer-background: #fff;
+    --background: #efe1bd;
+    --accent: rgb(0, 0, 0);
+}
+[data-theme="dark"] {
+    --header-background: #3f3636;
+    --about-background: rgb(34, 20, 20);
+    --projects-background: #000000;
+    --skills-background: rgb(34, 20, 20);
+    --skills-item-background: #462d2d;
+    --exp-background: #1c1c1c !important;
+    --exp-item-background: #462d2d !important;
+    --footer-background: #000;
+    --background: #000000;
+    --accent: rgb(255, 255, 255);
+}

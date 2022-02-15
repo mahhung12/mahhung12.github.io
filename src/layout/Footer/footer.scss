@@ -1,0 +1,13 @@
+.footer-container {
+    background-color: rgb(34, 18, 18);
+    &__wrap {
+        padding: 15px 0;
+        .footer-text {
+            color: #fff;
+            font-size: 25px;
+            text-transform: uppercase;
+
+            text-align: center;
+        }
+    }
+}
