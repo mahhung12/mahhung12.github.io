@@ -21,7 +21,9 @@
         "title": "Những Kỹ Năng",
         "Skill1-title": "Front-end",
         "Skill2-title": "Back-end",
-        "Skill3-title": "Khác"
+        "Skill3-title": "Khác",
+        "space1": "-----------------------------------",
+        "Skill1-tech": "Kĩ Thuật"
     },
     "section-exp": {
         "title": "Kinh Nghiệm",

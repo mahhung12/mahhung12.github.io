@@ -84,7 +84,7 @@ function Header(props) {
                         }
                         onClick={() => onClickChangeLanguageEn("vi")}
                     >
-                        <img src={vietnamFlag} alt="" srcSet="" />
+                        <img src={vietnamFlag} alt="AAA" srcSet="" />
                     </div>
                 </div>
             </div>

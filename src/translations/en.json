@@ -21,7 +21,9 @@
         "title": "Skills",
         "Skill1-title": "Front-end",
         "Skill2-title": "Back-end",
-        "Skill3-title": "Others"
+        "Skill3-title": "Others",
+        "space1": "-----------------------------------",
+        "Skill1-tech": "Technique"
     },
     "section-exp": {
         "title": "Experience",

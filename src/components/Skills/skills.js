@@ -95,7 +95,7 @@ function Skills() {
                     </div>
 
                     <div className="skill-sideName">
-                        {t("section-skills.Skill2-title")}
+                        {t("section-skills.Skill1-tech")}
                     </div>
                 </div>
 
