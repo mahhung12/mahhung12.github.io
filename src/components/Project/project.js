@@ -1,5 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+
+import NetflixLogo from "../../assets/images/netflix.jpg";
+import ShopCart from "../../assets/images/shop-cart.png";
+import GridSystem from "../../assets/images/Grid-System.png";
+
 import "./project.scss";
 
 function Project() {
@@ -10,7 +15,7 @@ function Project() {
             <div className="section__projects">
                 <div className="project">
                     <div className="project-img">
-                        <img src="/" alt="none" srcSet="" />
+                        <img src={NetflixLogo} alt="none" srcSet="" />
                     </div>
                     <div className="project-date">
                         {t("section-projects.project1-date")}
@@ -21,7 +26,7 @@ function Project() {
                 </div>
                 <div className="project">
                     <div className="project-img">
-                        <img src="/" alt="none" srcSet="" />
+                        <img src={ShopCart} alt="none" srcSet="" />
                     </div>
                     <div className="project-date">
                         {t("section-projects.project2-date")}
@@ -32,7 +37,7 @@ function Project() {
                 </div>
                 <div className="project">
                     <div className="project-img">
-                        <img src="/" alt="none" srcSet="" />
+                        <img src={GridSystem} alt="none" srcSet="" />
                     </div>
                     <div className="project-date">
                         {t("section-projects.project3-date")}
@@ -43,7 +48,7 @@ function Project() {
                 </div>
                 <div className="project">
                     <div className="project-img">
-                        <img src="/" alt="none" srcSet="" />
+                        <img src={NetflixLogo} alt="none" srcSet="" />
                     </div>
                     <div className="project-date">
                         {t("section-projects.project4-date")}
