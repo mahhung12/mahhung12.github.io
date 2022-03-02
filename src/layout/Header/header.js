@@ -24,7 +24,7 @@ function Header(props) {
     };
 
     useEffect(() => {
-        var lastScrollTop = 0;
+        var lastScrollTop = 80;
         const controlNavbar = () => {
             var st =
                 window.pageYOffset || document.documentElement.scrollTop;
