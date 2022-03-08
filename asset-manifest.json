@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.e46e0a6a.css",
-    "main.js": "./static/js/main.8e3cfe27.js",
+    "main.js": "./static/js/main.9f9d0d4c.js",
     "static/media/self-img01.JPG": "./static/media/self-img01.36331c44b962defce273.JPG",
     "static/media/netflix.jpg": "./static/media/netflix.73fff4a98b415007ef0d.jpg",
     "static/media/Grid-System.png": "./static/media/Grid-System.f765797dbbb320b636ad.png",
+    "static/media/Dictionary.png": "./static/media/Dictionary.426005ab952de9950b10.png",
     "static/media/vietnam-flag.png": "./static/media/vietnam-flag.063b498034ee728c8438.png",
     "static/media/sql-file.svg": "./static/media/sql-file.052c056d92a7df33c1caa50c6ee0c3b1.svg",
     "static/media/sql-server.svg": "./static/media/sql-server.b73f27211be01d27a3312e226f1f5c1a.svg",
     "index.html": "./index.html",
     "main.e46e0a6a.css.map": "./static/css/main.e46e0a6a.css.map",
-    "main.8e3cfe27.js.map": "./static/js/main.8e3cfe27.js.map"
+    "main.9f9d0d4c.js.map": "./static/js/main.9f9d0d4c.js.map"
   },
   "entrypoints": [
     "static/css/main.e46e0a6a.css",
-    "static/js/main.8e3cfe27.js"
+    "static/js/main.9f9d0d4c.js"
   ]
 }
