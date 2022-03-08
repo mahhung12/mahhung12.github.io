@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import NetflixLogo from "../../assets/images/netflix.jpg";
 import ShopCart from "../../assets/images/shop-cart.png";
 import GridSystem from "../../assets/images/Grid-System.png";
+import Dictionary from "../../assets/images/Dictionary.png";
 
 import "./project.scss";
 
@@ -48,7 +49,7 @@ function Project() {
                 </div>
                 <div className="project">
                     <div className="project-img">
-                        <img src={NetflixLogo} alt="none" srcSet="" />
+                        <img src={Dictionary} alt="none" srcSet="" />
                     </div>
                     <div className="project-date">
                         {t("section-projects.project4-date")}

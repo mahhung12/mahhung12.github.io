@@ -10,12 +10,16 @@
         "project1-date": "T12 - 2021",
         "project2-date": "T9 - 2021",
         "project3-date": "T8 - 2021",
-        "project4-date": "Tháng 6 - 2020",
+        "project4-date": "T3 - 2022",
+        "project5-date": "T3 - 2022",
+        "project6-date": "T3 - 2022",
         "space1": "-----------------------------------",
         "project1-title": "Netflix Clone",
         "project2-title": "Shop Cart",
         "project3-title": "Grid System",
-        "project4-title": "Điền thêm sau"
+        "project4-title": "Dictionary",
+        "project5-title": "Later",
+        "project6-title": "Later"
     },
     "section-skills": {
         "title": "Những Kỹ Năng",

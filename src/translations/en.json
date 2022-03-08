@@ -10,12 +10,16 @@
         "project1-date": "Dec - 2021",
         "project2-date": "Sep - 2021",
         "project3-date": "Aug - 2021",
-        "project4-date": "June - 2020",
+        "project4-date": "Feb - 2022",
+        "project5-date": "Feb - 2022",
+        "project6-date": "Feb - 2022",
         "space1": "-----------------------------------",
         "project1-title": "Mini Cinema",
         "project2-title": "Shop Cart",
         "project3-title": "Grid System",
-        "project4-title": "Enter later"
+        "project4-title": "Dictionary",
+        "project5-title": "Later",
+        "project6-title": "Later"
     },
     "section-skills": {
         "title": "Skills",
