@@ -30,20 +30,18 @@
         }
 
         .skill {
-            padding: 15px;
-
+            padding: 0 20px;
             height: fit-content;
-            width: 500px;
+            max-width: 30%;
 
             position: relative;
             text-align: center;
 
             display: flex;
             flex-direction: column;
-            // justify-content: center;
             align-items: center;
+            justify-content: center;
 
-            // background-color: rgba(248, 245, 244, 0.05);
             background-color: var(--skills-item-background);
             transition: all 0.2s linear;
 
@@ -61,7 +59,7 @@
                 margin: 0 auto;
 
                 @media screen and (max-width: 768px) {
-                    top: -2em;
+                    top: -1.4em;
                 }
 
                 svg {
@@ -72,6 +70,11 @@
 
                     background-color: #fff;
                     border-radius: 100rem;
+
+                    @media screen and (max-width: 768px) {
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
 
@@ -92,26 +95,28 @@
                 width: 100%;
 
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: center;
+                align-items: center;
 
                 gap: 0 15px;
                 flex-wrap: wrap;
 
                 @media screen and (max-width: 768px) {
                     align-items: center;
-                    justify-content: space-between;
+                    // justify-content: space-between;
                     padding: 0 10px;
                 }
 
                 &__item {
-                    padding: 10px;
+                    padding: 5px;
 
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
+                    // justify-content: center;
                     align-items: center;
 
-                    width: 30%;
+                    // width: 27%;
 
                     @media screen and (max-width: 768px) {
                         // border: 1px solid red;
@@ -122,8 +127,8 @@
                     svg,
                     img {
                         padding: 5px;
-                        width: 75px;
-                        height: 75px;
+                        width: 50px;
+                        height: 50px;
                         background-color: #fff;
                         border-radius: 8px;
                         // fill: #fff;
@@ -144,6 +149,7 @@
                     .item-name {
                         color: var(--accent);
                         margin-top: 7px;
+                        font-size: 13px;
                     }
                 }
             }

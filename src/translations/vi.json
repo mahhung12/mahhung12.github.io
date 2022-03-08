@@ -2,8 +2,8 @@
     "hi": "Chào bạn",
     "sectionAbout": {
         "title": "Giới thiệu về tôi",
-        "desc1": "Tôi tên là Mạnh Hùng, 21 tuổi đến từ Thành phố Hà Giang và tôi là Kỹ sư phần mềm của trường Đại học FPT.",
-        "desc2": "Tôi muốn trở thành nhà phát triển Web tốt nhất mà tôi có thể và đóng góp cho ngành công nghệ tất cả những gì tôi có thể làm. Tôi muốn học hỏi từ các anh chị nhiều kinh nghiệm đi trước và dày dạn kinh nghiệm hơn và tôi liên tục thực hiện những bước tiến để học hỏi tất cả những gì tôi có thể phát triển"
+        "desc1": "Mình tên là Mạnh Hùng, 21 tuổi đến từ Thành phố Hà Giang và tôi là Kỹ sư phần mềm của trường Đại học FPT.",
+        "desc2": "Mong muốn bản thân là trở thành một Web Developer trong tương lai, mình muốn bắt đầu từ Front-end, rồi từ đây mình sẽ phát triển trở thành FullStack Developer."
     },
     "section-projects": {
         "title": "Các dự án",
