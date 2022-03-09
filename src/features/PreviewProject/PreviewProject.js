@@ -70,25 +70,19 @@ const routes = [
     },
 ];
 
-const IconLink = ({ src, text }) => (
-    <a className="example-link">
+const IconLink = ({ src, text, link }) => (
+    <a className="example-link" href={link}>
         <img className="example-link-icon" src={src} alt={text} />
         {text}
     </a>
 );
 
-const content = (
+const content = (overview, desc, tech, link) => (
     <>
-        <Paragraph>
-            Ant Design interprets the color system into two levels: a
-            system-level color system and a product-level color system.
-        </Paragraph>
-        <Paragraph>
-            Ant Design&#x27;s design team preferred to design with the HSB
-            color model, which makes it easier for designers to have a
-            clear psychological expectation of color when adjusting colors,
-            as well as facilitate communication in teams.
-        </Paragraph>
+        <Paragraph>{overview}</Paragraph>
+        <Paragraph>{desc}</Paragraph>
+        <Paragraph>{tech}</Paragraph>
+
         <div
             style={{
                 display: "flex",
@@ -103,15 +97,17 @@ const content = (
                     textAlign: "center",
                     border: "10px solid red",
                 }}
-            />
-            <IconLink
-                src="https://gw.alipayobjects.com/zos/rmsportal/NbuDUAuBlIApFuDvWiND.svg"
-                text="Source Code"
+                link={link}
             />
             <IconLink
                 src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg"
-                text="Product Doc"
+                text="Source Code"
+                link="https://github.com/mahhung12"
             />
+            {/* <IconLink
+                src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg"
+                text="Product Doc"
+            /> */}
         </div>
     </>
 );
@@ -124,7 +120,7 @@ const Content = ({ children, extraContent }) => (
 );
 
 const Wrapper = (props) => {
-    const { title, date, img } = props;
+    const { title, date, img, overview, desc, tech, link } = props;
     return (
         <PageHeader
             // title={title}
@@ -147,7 +143,7 @@ const Wrapper = (props) => {
                     />
                 }
             >
-                {content}
+                {content(overview, desc, tech, link)}
             </Content>
         </PageHeader>
     );
