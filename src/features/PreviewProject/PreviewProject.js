@@ -127,7 +127,7 @@ const Wrapper = (props) => {
     const { title, date, img } = props;
     return (
         <PageHeader
-            title={title}
+            // title={title}
             className="site-page-header"
             subTitle="Create At"
             tags={<Tag color="blue">{date}</Tag>}
