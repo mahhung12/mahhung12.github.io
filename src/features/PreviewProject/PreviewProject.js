@@ -1,74 +1,7 @@
-import {
-    PageHeader,
-    Menu,
-    Dropdown,
-    Button,
-    Tag,
-    Typography,
-    Row,
-} from "antd";
-import { EllipsisOutlined } from "@ant-design/icons";
-
+import { PageHeader, Row, Tag, Typography } from "antd";
 import selfImg from "../../assets/images/self-img01.JPG";
 
 const { Paragraph } = Typography;
-
-const menu = (
-    <Menu>
-        <Menu.Item>
-            <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://www.alipay.com/"
-            >
-                1st menu item
-            </a>
-        </Menu.Item>
-        <Menu.Item>
-            <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://www.taobao.com/"
-            >
-                2nd menu item
-            </a>
-        </Menu.Item>
-        <Menu.Item>
-            <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://www.tmall.com/"
-            >
-                3rd menu item
-            </a>
-        </Menu.Item>
-    </Menu>
-);
-
-const DropdownMenu = () => (
-    <Dropdown key="more" overlay={menu}>
-        <Button
-            style={{
-                border: "none",
-                padding: 0,
-            }}
-        >
-            <EllipsisOutlined
-                style={{
-                    fontSize: 20,
-                    verticalAlign: "top",
-                }}
-            />
-        </Button>
-    </Dropdown>
-);
-
-const routes = [
-    {
-        path: "second",
-        breadcrumbName: "Third-level Menu",
-    },
-];
 
 const IconLink = ({ src, text, link }) => (
     <a className="example-link" href={link}>
@@ -104,10 +37,6 @@ const content = (overview, desc, tech, link) => (
                 text="Source Code"
                 link="https://github.com/mahhung12"
             />
-            {/* <IconLink
-                src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg"
-                text="Product Doc"
-            /> */}
         </div>
     </>
 );
@@ -134,14 +63,7 @@ const Wrapper = (props) => {
             // breadcrumb={{ routes }}
         >
             <Content
-                extraContent={
-                    <img
-                        // src="https://gw.alipayobjects.com/zos/antfincdn/K%24NnlsB%26hz/pageHeader.svg"
-                        src={img}
-                        alt={title}
-                        width="100%"
-                    />
-                }
+                extraContent={<img src={img} alt={title} width="100%" />}
             >
                 {content(overview, desc, tech, link)}
             </Content>
