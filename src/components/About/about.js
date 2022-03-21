@@ -18,8 +18,8 @@ function About() {
                 <div className="section__about">
                     <div className="section__about-introduction"
                     >
-                        <h2 className="nameself"> Mạnh Hùng </h2>
-                        <h3 className="position"> Front-end Developer </h3>
+                        <div className="nameself"> Mạnh Hùng </div>
+                        <div className="position"> Front-end Developer </div>
                         <div className="main-img">
                             <img src={ selfImg } alt="None" srcSet="" />
                         </div>
