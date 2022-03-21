@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import "antd/dist/antd.css";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./i18next";

@@ -1,5 +1,4 @@
 import React from "react";
-// import "antd/dist/antd.css";
 import { withTranslation } from "react-i18next";
 import useLocalStorage from "use-local-storage";
 
