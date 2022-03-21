@@ -1,4 +1,5 @@
 import React from "react";
+// import "antd/dist/antd.css";
 import { withTranslation } from "react-i18next";
 import useLocalStorage from "use-local-storage";
 
@@ -23,10 +24,10 @@ function App() {
 
     return (
         <>
-            <div className="App" data-theme={theme}>
-                {/* <Login /> */}
+            <div className="App" data-theme={ theme }>
+                {/* <Login /> */ }
 
-                <Header onClickChangeThemeMode={onClickChangeThemeMode} />
+                <Header onClickChangeThemeMode={ onClickChangeThemeMode } />
 
                 <div className="section-main">
                     <About />

@@ -14,13 +14,14 @@ function About() {
     return (
         <>
             <div className="aboutme-wrap">
-                <div className="title">{t("sectionAbout.title")}</div>
+                <div className="title">{ t("sectionAbout.title") }</div>
                 <div className="section__about">
-                    <div className="section__about-introduction">
+                    <div className="section__about-introduction"
+                    >
                         <h2 className="nameself"> Mạnh Hùng </h2>
                         <h3 className="position"> Front-end Developer </h3>
                         <div className="main-img">
-                            <img src={selfImg} alt="None" srcSet="" />
+                            <img src={ selfImg } alt="None" srcSet="" />
                         </div>
                     </div>
                     <div className="section__about-summary">
@@ -35,8 +36,8 @@ function About() {
                                 className="iconify"
                                 data-icon="emojione:red-circle"
                                 data-inline="false"
-                                style={{ transform: `rotate(360deg)` }}
-                                onClick={() => onClickTab()}
+                                style={ { transform: `rotate(360deg)` } }
+                                onClick={ () => onClickTab() }
                             >
                                 <circle
                                     cx="32"
@@ -44,8 +45,8 @@ function About() {
                                     r="30"
                                     fill="#ed4c5c"
                                 ></circle>
-                            </svg>{" "}
-                            &nbsp;{" "}
+                            </svg>{ " " }
+                            &nbsp;{ " " }
                             <svg
                                 aria-hidden="true"
                                 focusable="false"
@@ -56,8 +57,8 @@ function About() {
                                 className="iconify"
                                 data-icon="twemoji:yellow-circle"
                                 data-inline="false"
-                                style={{ transform: `rotate(360deg)` }}
-                                onClick={() => onClickTab()}
+                                style={ { transform: `rotate(360deg)` } }
+                                onClick={ () => onClickTab() }
                             >
                                 <circle
                                     fill="#FDCB58"
@@ -65,8 +66,8 @@ function About() {
                                     cy="18"
                                     r="18"
                                 ></circle>
-                            </svg>{" "}
-                            &nbsp;{" "}
+                            </svg>{ " " }
+                            &nbsp;{ " " }
                             <svg
                                 aria-hidden="true"
                                 focusable="false"
@@ -77,8 +78,8 @@ function About() {
                                 className="iconify"
                                 data-icon="twemoji:green-circle"
                                 data-inline="false"
-                                style={{ transform: `rotate(360deg)` }}
-                                onClick={() => onClickTab()}
+                                style={ { transform: `rotate(360deg)` } }
+                                onClick={ () => onClickTab() }
                             >
                                 <circle
                                     fill="#78B159"
@@ -90,8 +91,8 @@ function About() {
                             &nbsp;
                         </div>
                         <div className="summary-area">
-                            <p>{t("sectionAbout.desc1")}</p>
-                            <p>{t("sectionAbout.desc2")}</p>
+                            <p>{ t("sectionAbout.desc1") }</p>
+                            <p>{ t("sectionAbout.desc2") }</p>
                         </div>
                     </div>
                 </div>
