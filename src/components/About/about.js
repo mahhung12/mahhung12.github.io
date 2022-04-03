@@ -19,7 +19,7 @@ function About() {
                     <div className="section__about-introduction"
                     >
                         <div className="nameself"> Mạnh Hùng </div>
-                        <div className="position"> Front-end Developer </div>
+                        <div className="position"> Web Developer </div>
                         <div className="main-img">
                             <img src={ selfImg } alt="None" srcSet="" />
                         </div>
